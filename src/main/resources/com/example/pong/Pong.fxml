@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane fx:id="Canvas" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="com.example.pong.PongController" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="LPaddle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="20.0" x="20.0" y="300.0" />
+      <Rectangle fx:id="RPaddle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="10.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="20.0" x="1150.0" y="300.0" />
+   </children>
+</Pane>
